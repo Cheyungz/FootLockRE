@@ -1,0 +1,271 @@
+.sidebar{
+    font-family: 'Inter', sans-serif;
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    /* top: 140px; */
+    top: 10%;
+}
+
+/*filter*/
+.filter{
+    margin: 0;
+}
+.text-filter{
+    font-weight: 600;
+    font-size: 3vh;
+    /* margin-bottom: 10px; */
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.filter-line{
+    margin: 0;
+    margin-bottom: 3vh;
+}
+
+/*brand section*/
+.text-brand, .text-price{
+    margin-left: 8%;
+    color: #5C5957;
+    font-size: 2.5vh;
+    font-weight: 500;
+    margin-bottom: 1vh;
+}
+
+.filter-button-nike, .filter-button-adidas, .filter-button-asics, .filter-button-reebok, .filter-button-newbalance,
+.filter-button-vans, .filter-button-puma{
+    display: inline-block;
+    width: 7.5%;
+    height: 3vh;
+    border-radius: 5px;
+    border-width: 2px;
+    margin-left: 6.7%;
+    background-color: white;
+}
+
+.filter-name{
+    display: inline-block;
+    font-weight: 600;
+    padding-left: 14%;
+    margin: 0;
+    font-size: 2vh;
+}
+
+.nike, .asics, .adidas, .reebok, .new-balance, .vans, .puma{
+    margin-bottom: 3%;
+}
+
+.price-grid-1, .price-grid-5{
+    display: grid;
+    grid-template-columns: 20% 80%;
+}
+
+.price-grid-2, .price-grid-3, .price-grid-4{
+    display: grid;
+    grid-template-columns: 20% 55%;
+}
+
+.filter-price{
+    margin: 0;
+    padding-left: 28px;
+    font-weight: 600;
+    
+    font-size: 16px;
+}
+
+.filter-button-price-one{
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    border-width: 2px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.filter-button-price-two{
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    border-width: 2px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.filter-button-price-three{
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    border-width: 2px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.filter-button-price-four{
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    border-width: 2px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.filter-button-price-five{
+    width: 22px;
+    height: 22px;
+    border-radius: 5px;
+    border-width: 2px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.price-grid-1, .price-grid-2, .price-grid-3, .price-grid-4, .price-grid-5{
+    margin-bottom: 8px;
+}
+
+
+.colour{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 10px 10px 10px 20px;
+    row-gap: 15px;
+}
+.warna1{
+    display: grid;
+    width: 28px;
+    height: 28px;
+    border-width: 0;
+    background-color: #78D7EC;
+    border-radius: 14px;
+}
+
+.warna2{
+    display: grid;
+    width: 28px;
+    height: 28px;
+    border-width: 0px;
+    background-color: #318B9F;
+    border-radius: 14px;
+}
+
+.warna3{
+    display: grid;
+    width: 28px;
+    height: 28px;
+    border-width: 0px;
+    background-color: #ECD378;
+    border-radius: 14px;
+}
+
+.warna4{
+    display: grid;
+    width: 28px;
+    height: 28px;
+    border-width: 0px;
+    background-color: #CEB045;
+    border-radius: 14px;
+}
+
+.warna5{
+    display: grid;
+    width: 28px;
+    height: 28px;
+    border-width: 0px;
+    background-color: #8E1D1D;
+    border-radius: 14px;
+}
+
+.warna6{
+    display: grid;
+    width: 28px;
+    height: 28px;
+    border-width: 0px;
+    background-color: #DC78EC;
+    border-radius: 14px;
+}
+
+.warna7{
+    display: grid;
+    width: 28px;
+    height: 28px;
+    border-width: 0px;
+    background-color: #8D20A8;
+    border-radius: 14px;
+}
+
+.warna8{
+    display: grid;
+    width: 28px;
+    height: 28px;
+    border-width: 0px;
+    background-color: #42D53F;
+    border-radius: 14px;
+}
+
+.warna9{
+    display: grid;
+    width: 28px;
+    height: 28px;
+    border-width: 0px;
+    background-color: #25AC22;
+    border-radius: 14px;
+}
+
+.warna10{
+    display: grid;
+    width: 28px;
+    height: 28px;
+    border-width: 0px;
+    background-color: #EA1010;
+    border-radius: 14px;
+}
+
+.warna11{
+    display: grid;
+    width: 28px;
+    height: 28px;
+    border-width: 0px;
+    background-color: #000000;
+    border-radius: 14px;
+}
+
+.warna12{
+    display: grid;
+    width: 28px;
+    height: 28px;
+    border-width: 0px;
+    background-color: #DEEAED;
+    border-radius: 14px;
+}
+
+.warna13{
+    display: grid;
+    width: 28px;
+    height: 28px;
+    border-width: 0px;
+    background-color: #DCC6BB;
+    border-radius: 14px;
+}
+
+.warna14{
+    display: grid;
+    width: 28px;
+    height: 28px;
+    border-width: 0px;
+    background-color: #E4D4CC;
+    border-radius: 14px;
+}
+
+.warna15{
+    display: grid;
+    width: 28px;
+    height: 28px;
+    border-width: 0px;
+    background-color: #D3A893;
+    border-radius: 14px;
+}
+
+
+
+    

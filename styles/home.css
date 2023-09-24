@@ -1,0 +1,78 @@
+.home-navbar{
+    color: #D27A4E;
+}
+
+.background-section{
+    background-color: #F4EFEC;
+    margin-bottom: 2%;
+}
+
+.popular-shoes-text{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    text-decoration: underline;
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+.popular-shoes{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: center;
+    align-items: center;
+}
+
+.shoes-grid-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.shoes-image{
+    width: 100%;
+}
+
+.shoes-grid{
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.shoes-name{
+    font-family: 'Inter', sans-serif;
+    padding-top: 2vh;
+    padding-bottom: 1vh;
+    font-weight: 600;
+    font-size: 2vh;
+}
+
+.shoes-price{
+    padding-bottom: 2vh;
+}
+
+.banner-container{
+    font-family: 'Inter', sans-serif;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-banner{
+    width: 70%;
+    padding: 5%;
+}
+
+@media(max-width: 768px){
+    .shoes-name{
+        font-size: 1vh;
+        padding-top: 1vh;
+        padding-bottom: 1vh;
+    }
+    .shoes-price{
+        font-size: 1vh;
+        padding-bottom: 1vh;
+    }
+}

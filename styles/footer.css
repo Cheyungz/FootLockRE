@@ -1,0 +1,30 @@
+.footer-container{
+    position: sticky;
+    bottom: 0;
+    height: 13vh;
+    width: 100%;
+    display: grid;
+    margin: 0;
+    padding: 0;
+    background-color: #DCC6BB;
+    margin-top: 5%;
+    grid-template-columns: 20% 60% 20%;
+}
+
+.footer-logo{
+    width: 50%;
+    margin: 0;
+    height: 100%;
+}
+
+.reserved{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+}

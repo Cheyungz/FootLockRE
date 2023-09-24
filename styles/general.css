@@ -1,0 +1,38 @@
+body{
+    font-family: Arial; 
+    margin: 0px;   
+}
+
+a {
+    font-family:'Montserrat', sans-serif;;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 90%;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.a-navbar {
+    font-family:'Montserrat', sans-serif;;
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 100%;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #D27A4E;
+}
+
+hr{
+    border-width: 1px;
+    border-style: solid;
+}

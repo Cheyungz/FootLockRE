@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subscribe</title>
+    <link rel="stylesheet" href="./styles/general.css">
+    <link rel="stylesheet" href="./styles/header.css">
+    <link rel="stylesheet" href="./styles/subscribe.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+</head>
+<body>
+    <div class = "header">
+        <div class = "logo-section">
+            <img class = "logo" src="/Image/footlocker_logo.png" alt="">
+        </div>
+        <div class = "navbar-section">
+            <a href="Home.html" >HOME</a>
+            <a href = "Shoes.html" >SHOES</a>
+            <a href = "AboutUs.html">ABOUT US</a>
+            <a href = "Events.html">EVENTS</a>
+            <a class = "subscribe-navbar">SUBSCRIBE</a>
+        </div>
+        <div class = "search-shop-section" >
+            <Button class = "search-button">
+                <img class = "search-image" src="/Icons/material-symbols_search.svg" alt="">
+            </Button>
+            <input class = "search-bar" type = "text" placeholder="search">
+            <img class = "shop-image" src="/Icons/ion_cart-sharp.svg" alt="">
+        </div>
+    </div>
+    <hr class = "header-line">
+        
+    </div>
+
+    <h2>Let's Stay Connected</h2>
+    <h5>Stay updated from us !</h5>
+    <form>
+        <label for="name">Full Name:</label>
+        <input class ="name" type="text" id="name" placeholder="Full Name" required><br><br>
+    
+        <label for="email">Email Address:</label>
+        <input class = "email" type="email" id="email" placeholder="example@gmail.com" required><br><br>
+    
+        <label for="phone">Phone Number:</label>
+        <input class = "phone-number" type="tel" id="phone" placeholder="Phone Number (starts with '+')" required><br><br>
+    
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="">Select a country</option>
+            <option value="ID">Indonesia</option>
+            <option value="KR">Korea</option>
+            <option value="JPN">Japan</option>
+        </select>
+        <br><br>
+        
+        <div class="Check-Box">
+            <input type="checkbox" id="checkbox"  required>
+            <p>By checking this box you agree to the Terms and Conditions</p><br><br>
+        </div>
+        
+        <div class="Btn-submit" >
+            <button type="submit" id="submit">Submit</button>
+        </div>
+        
+    </form>
+
+    <footer>
+        <div class="footer-container">
+            <div>
+                <img class="footer-logo" src="Image/footlocker_logo.png" alt="">
+            </div>
+            <span class="reserved">@2023, Foot Lockre, Inc. All Rights Reserved </span>
+            <div class="social-media">       
+                <img class="twitter" src="/Image/mdi_twitter.png" alt="">
+                <img class="instagram" src="/Image/mdi_instagram.png" alt="">
+                <img class="facebook" src="/Image/ic_baseline-facebook.png" alt="">
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="script/subscribe.js"></script>
+</html>
+
